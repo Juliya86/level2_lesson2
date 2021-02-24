@@ -23,8 +23,8 @@ public class Main {
         phone.add("Васильев", 89115128787L);
         phone.add("Зубарев", 89055565487L);
 
-        System.out.println(this.name + "тел: " + phone.get("Зубарев"));
-        System.out.println(this.name + "тел: " + phone.get("Самойлов"));
+        System.out.println("тел: " + phone.get("Зубарев"));
+        System.out.println("тел: " + phone.get("Самойлов"));
 
     }
 
